@@ -1,0 +1,115 @@
+body {
+    font-family: Bodoni MT Black, Helvetica, sans-serif;
+  }
+  
+
+  
+.profile{
+  margin: 0% auto;
+  text-align: center;
+}
+
+
+  nav {
+    float: left;
+    width: 25%;
+    height: 600px; 
+    background-image: url(Picture/background3.jpg);
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    height: min-content;
+  }
+  
+  article {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 69%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Picture/background6.jpg)
+    
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: url(Picture/background7.jpg);
+  }
+  body {
+      background-image: url(Picture/backgroundimg.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    width: 350px;
+    height: 345px;
+    background-image: url(Picture/background4.jpg);
+    font-size: 1.5em; 
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: #3988a4;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  li a:hover {
+    background-color: #163cbb;
+    color: rgb(80, 191, 76);
+  }
+  
+    img {
+      width: 100px; 
+      height: 100px; 
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+
+    .logo {
+      margin: 0 auto;
+      width: 300px;
+      height: 150px;
+   }
+
+  
+  .resume-header {
+    background-image: url(Picture/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 2em;  
+    color: #40c9b9;  
+    padding: 20px;  
+    height: 200px;
+  }
+
+
+   
+
